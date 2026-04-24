@@ -5,10 +5,6 @@ C:\Windows\system32>cd E:\app\apex24.2_ord25.4\ords_25.4
 
 C:\Windows\system32>e:
 
-E:\app\apex24.2_ord25.4\ords_25.4>ords --config E:\app\apex24.2_ord25.4\ords_25.4 config set jdbc.InitialLimit 10
-'ords' is not recognized as an internal or external command,
-operable program or batch file.
-
 E:\app\apex24.2_ord25.4\ords_25.4>cd bin
 
 E:\app\apex24.2_ord25.4\ords_25.4\bin>ords --config E:\app\apex24.2_ord25.4\ords_25.4 config set jdbc.InitialLimit 10
@@ -67,25 +63,3 @@ Configuration:
 The setting named: jdbc.InactivityTimeout was set to: 1800 in configuration: default
 
 E:\app\apex24.2_ord25.4\ords_25.4\bin>
-
-E:\app\apex24.2_ord25.4\ords_25.4\databases\default\pool.xml
-
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
-<properties>
-<comment>Saved on Fri Apr 24 08:32:11 UTC 2026</comment>
-<entry key="db.connectionType">basic</entry>
-<entry key="db.hostname">localhost</entry>
-<entry key="db.port">1521</entry>
-<entry key="db.servicename">orclpdb</entry>
-<entry key="db.username">ORDS_PUBLIC_USER</entry>
-<entry key="feature.sdw">true</entry>
-<entry key="jdbc.InactivityTimeout">1800</entry>
-<entry key="jdbc.InitialLimit">10</entry>
-<entry key="jdbc.MaxConnectionReuseCount">1000</entry>
-<entry key="jdbc.MaxLimit">50</entry>
-<entry key="jdbc.MinLimit">10</entry>
-<entry key="plsql.gateway.mode">proxied</entry>
-<entry key="restEnabledSql.active">true</entry>
-<entry key="security.requestValidationFunction">ords_util.authorize_plsql_gateway</entry>
-</properties>
